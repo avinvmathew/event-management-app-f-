@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "imageLink": "https://www.twilio.com/content/dam/twilio-com/global/en/blog/legacy/2018/gif-ready-signalconf/Animated_GIF-downsized_large-4.gif",
+      "title": "Annual Tech Conference"
+    },
+    {
+      "id": 2,
+      "imageLink": "https://media4.giphy.com/media/3ov9kbPprdHC0bweJO/giphy.gif?cid=6c09b952f9q3elkr3l6i7a4owjgdlrjrvhpcb5a5emkmge5i&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+      "title": "Spring Music Festival"
+    },
+    {
+      "id": 3,
+      "imageLink": "https://gifdb.com/images/high/black-rog-power-walk-marathon-pdy7lr953x5pevjs.gif",
+      "title": "Charity Run 2024"
+    },
+    {
+      "id": 4,
+      "imageLink": "https://media3.giphy.com/media/3ohhwyY60HMRtpciNa/giphy.gif?cid=6c09b952eah0bxtpd3n0cx2n8yr8z8jpci0gmmabsin0tsi9&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+      "title": "Art Exhibition"
+    },
+    {
+      "id": 5,
+      "imageLink": "https://cdn.techinasia.com/wp-content/uploads/2021/02/pitch-startup-idea.gif",
+      "title": "Startup Pitch Night"
+    }
+  ]
+  

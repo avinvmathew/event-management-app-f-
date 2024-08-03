@@ -1,0 +1,18 @@
+#HomeAppBarcentertext
+{
+    font-weight: 'bold';
+    font-family: "Lucida Console", "Courier New", monospace;
+    animation: 'fadeIn 2s ease-in-out'
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  #video {
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video is behind other content */
+    background-color: rgba(0, 0, 0, 0.5);
+  }

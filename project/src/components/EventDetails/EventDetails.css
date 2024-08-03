@@ -1,0 +1,132 @@
+.event-details-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image: url('/path/to/your/background-image.jpg');  */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .event-details-container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
+  .event-status {
+    text-align: right;
+  }
+  
+  .status {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  
+  .event-title {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .event-info {
+    margin: 10px 0;
+  }
+  
+  .event-date,
+  .event-time,
+  .event-location {
+    margin: 5px 0;
+  }
+  
+  .event-description-title,
+  .event-organizer-title {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+  }
+  
+  .event-description {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .event-organizer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .organizer-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .organizer-avatar {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  
+  .organizer-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .organizer-name {
+    font-weight: bold;
+  }
+  
+  .organizer-company {
+    color: gray;
+  }
+  
+  .register-button-container {
+    text-align: right;
+  }
+  
+  .register-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #333;
+  }
+
+  #video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video is behind other content */
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scroll bars from appearing */
+  }
+  
+  @keyframes textAnimation {
+    0% { opacity: 0; transform: translateY(-20px); }
+    50% { opacity: 1; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animated-text {
+    animation: textAnimation 1.5s ease-out;
+  }

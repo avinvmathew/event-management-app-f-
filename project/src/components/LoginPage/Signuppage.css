@@ -1,0 +1,125 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Style the signup container with highly translucent effect */
+  .signup-container {
+    background: rgba(255, 255, 255, 0.1); /* Very translucent background */
+    backdrop-filter: blur(10px); /* Stronger blur effect for better glass effect */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow for better visibility */
+    width: 360px;
+    max-width: 100%;
+    text-align: center;
+    position: relative; /* Ensure proper stacking context */
+    z-index: 1; /* Ensure it appears above other elements */
+  }
+  
+  /* Style the header */
+  .signup-header {
+    margin-bottom: 24px;
+    font-size: 24px; /* Adjusted font size for a more subtle look */
+    font-weight: 800; /* Bold weight for emphasis */
+    color: #2c3e50; /* Dark, professional color */
+    letter-spacing: 1px; /* Slightly spaced letters */
+  }
+  
+  /* Style the form */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Style the form group */
+  .form-group {
+    margin-bottom: 24px;
+  }
+  
+  /* Style the labels */
+  .form-group label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 500; /* Slightly lighter font weight for modern look */
+    color: #444; /* Darker color for better contrast */
+    font-size: 14px; /* Adjusted font size for better readability */
+  }
+  
+  /* Style the input fields */
+  .form-group input {
+    width: 100%;
+    padding: 14px; /* Increased padding for a more spacious look */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Light grey border for a soft appearance */
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff; /* Clean white background */
+    color: #333; /* Dark text color for readability */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Style for focus state of the input fields */
+  .form-group input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Subtle blue shadow effect */
+  }
+  
+/* Ensure specificity */
+button.signup-button {
+  padding: 14px; /* Increased padding for a more prominent button */
+  background-color: #333; /* Initial background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Change background color and scale button on hover */
+button.signup-button:hover {
+  background-color: #000; /* Black on hover */
+  transform: scale(1.02);
+}
+
+/* Change background color and scale button on active */
+button.signup-button:active {
+  background-color: #000; /* Black on active */
+  transform: scale(0.98);
+}
+
+  
+  /* Style the sign-up link */
+  .login-link {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .login-link-text {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .login-link-text:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the header */
+  .signup-form h2 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    color: #333; /* Dark color for the header */
+    font-weight: 700; /* Bold font weight for emphasis */
+  }
+  
